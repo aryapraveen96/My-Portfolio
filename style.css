@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    width: 30%;
+    background-color: #2e3b4e;
+    color: white;
+    padding: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact, .education, .expertise, .languages {
+    margin-bottom: 20px;
+}
+
+.contact h2, .education h2, .expertise h2, .languages h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #2e3b4e;
+}
+
+.student {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.summary {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.experience, .achievements, .extra-curricular {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #2e3b4e;
+    margin-bottom: 10px;
+}
+
+p, ul, ol {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
